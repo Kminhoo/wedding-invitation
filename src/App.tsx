@@ -1,7 +1,16 @@
+import Header from 'components/Header'
+import Maple from 'components/Maple'
 import weddingData from 'weddingData'
 
 const App = () => {
-  return <div className="App">{weddingData.wedding.id}</div>
+  return (
+    <>
+      <Maple />
+      <div className="App">
+        <Header />
+      </div>
+    </>
+  )
 }
 
 export default App
